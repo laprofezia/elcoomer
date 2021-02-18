@@ -5,19 +5,19 @@
 #include <asm/cpufeature.h>
 #include <asm/fpsimd.h>
 
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/compat.h>
-#include <linux/elf.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/personality.h>
-#include <linux/preempt.h>
-#include <linux/printk.h>
-#include <linux/seq_file.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/delay.h>
+#include <bsd/bitops.h>
+#include <bsd/bug.h>
+#include <bsd/compat.h>
+#include <bsd/elf.h>
+#include <bsd/init.h>
+#include <bsd/kernel.h>
+#include <bsd/personality.h>
+#include <bsd/preempt.h>
+#include <bsd/printk.h>
+#include <bsd/seq_file.h>
+#include <bsd/sched.h>
+#include <bsd/smp.h>
+#include <bsd/delay.h>
 
 /*
  * In case the boot CPU is hotpluggable, we record its initial state and
