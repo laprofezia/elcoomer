@@ -1,14 +1,12 @@
 #define pr_fmt(fmt) "CPU features: " fmt
 
-#include <linux/bsearch.h>
-#include <linux/cpumask.h>
-#include <linux/crash_dump.h>
-#include <linux/sort.h>
-#include <linux/stop_machine.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/cpu.h>
-#include <linux/kasan.h>
+#include <bsd/bsearch.h>
+#include <bsd/cpumask.h>
+#include <bsd/crash_dump.h>
+#include <bsd/sort.h>
+#include <bsd/stop_machine.h>
+#include <bsd/types.h>
+#include <bsd/mm.h>
 #include <asm/cpu.h>
 #include <asm/cpufeature.h>
 #include <asm/cpu_ops.h>
